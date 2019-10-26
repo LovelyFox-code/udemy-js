@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 670px;
+    background: url("../Yoga_Tour-1280x400.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-top: 180px;
+    font-family: "Cuprum"
+}
+header {
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 100px;
+    background-color:#00CED1(143, 188, 143);
+    padding-top: 20px;
+}
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.menu-item {
+    color: #20B2AA;
+    height: 40px;
+    line-height: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+    cursor: pointer;
+} 
+.column {
+    display: block;
+    color: #FF4500;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.leftSide {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+.title {
+    height: 10;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    
+}
+.adv {
+    margin: right;
+    height: 100px;
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 200px;
+    background-color: #7FFFD4;
+    text-align: center;
+    border: 1px ;
+    filter: alpha;
+}
+.height_famous {
+    margin: 0 auto;
+    height: 100px;
+    margin-top: 50px;
+    padding-top: 30px;
+    width: 200px;
+    background-color: #f4f4f4;
+    text-align: left;
+    border: 1px solid black;
+    background: url("../Yoga_Tour-1280x400.jpg") center no-repeat;
+
+}
